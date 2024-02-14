@@ -10,6 +10,7 @@ import "./App.css";
 
 // const socket = io.connect("http://ec2-52-66-246-17.ap-south-1.compute.amazonaws.com/");
 const socket = io.connect("http://ec2-43-204-235-117.ap-south-1.compute.amazonaws.com/");
+// const socket = io.connect("http://localhost:5000");
 function App() {
   const [me, setMe] = useState("");
   const [stream, setStream] = useState(null); // Initialize stream as null
