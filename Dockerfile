@@ -11,6 +11,7 @@ FROM node:19-alpine
 COPY frontend/package.json /app/frontend/  
 COPY frontend/public/* /app/frontend/public/
 COPY frontend/src/* /app/frontend/src/
+COPY frontend/src/photos/* /app/frontend/src/photos/
 WORKDIR /app/frontend 
 RUN npm install
 RUN npm run build 
@@ -18,8 +19,6 @@ COPY package.json /app/
 COPY server.js /app/
 WORKDIR /app            
 RUN npm install    
-
 CMD [ "npm", "start" ] 
-
 
 
