@@ -44,14 +44,14 @@
   }
   
   body {
-	background: #47e6ce; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #54e99a, #4776e6); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #54e9a6, #d0d5d4e8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #ccd7d6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #42815f, #04070d); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #14d4ce, #d0d5d4e8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   
  .capture-button {
 	text-align: center;
-	margin-top: 2rem;
+	margin-top: 20rem;
 	grid-column: 1 / span 2; /* span the full width of the container */
   }
   .captured-photo {

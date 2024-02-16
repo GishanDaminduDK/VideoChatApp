@@ -580,17 +580,17 @@ function App() {
     <>
       <div className="Nav">
         <img src={companylogo} alt=""/>
-        <h1 className="headd">Instanse Meeting</h1>
+        <h1 className="headd">Instant Meeting</h1>
       </div>
 
       <div className="container">
         <div className="video-container">
           <div className="video">
-            {stream && <video playsInline muted ref={myVideo} autoPlay style={{ width: "600px" }} />}
+            {stream && <video playsInline muted ref={myVideo} autoPlay style={{ width: "300px" }} />}
           </div>
           <div className="video">
             {callAccepted && !callEnded ?
-            <video playsInline ref={userVideo} autoPlay style={{ width: "300px"}} /> :
+            <video playsInline ref={userVideo} autoPlay style={{ width: "600px"}} /> :
             null}
           </div>
         </div>
